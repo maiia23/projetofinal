@@ -1,0 +1,57 @@
+:root {
+    --primary-color: #2d729d
+}
+html {
+    font-family: sans-serif;
+    background-color: rgba(255, 255, 255, 0.63);
+}
+
+h1, h2, h3, h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.maxwidth {
+    max-width: 70.25em;
+    margin: left;   
+}
+
+h1{
+    text-align: center;
+    background-color: #0464a4;
+    color: white;
+    padding: 1em;
+}
+
+hr {
+    margin: 0px;
+    border-color: var(--primary-color);
+}
+
+legend{
+    font-weight: bold
+}
+
+ul{
+    list-style-type: none   
+}
+
+li{
+    display: inline;
+}
+
+.rodape{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: rgb(0, 0, 0);
+    background-color:  #0464a4;
+    text-align: center;
+    padding: 10px;
+    text-shadow: 4px 4px 4px #1a1a1a;
+    letter-spacing: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.rodape li {
+    margin-left: 60px;
+    margin-right: 60px;
+}

@@ -1,0 +1,147 @@
+:root {
+    --primary-color: #0464a4
+}
+
+body {
+
+    margin: 0;
+    padding: 0;
+}
+
+.maxwidth {
+    max-width: 70.25em;
+    margin: auto; 
+}
+
+/*parte do menu*/
+.top_header {
+    text-align: center;
+}
+
+.top_header_nav {
+    background-color:var(--primary-color) ;
+}
+
+hr {
+    margin: 0.3px;
+    border-color: var(--primary-color);
+}
+
+.top_header_nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.top_header_nav a {
+    color: white;
+    text-decoration: none;
+    display: block; /*importante para montar o menu e ocupar 100% da área*/
+    padding: 1em;
+    border-radius: 0.7em;
+}
+
+.top_header_nav li {
+    border-radius: 0.7em;
+}
+
+.top_header_nav li:hover {
+    background-color: color-mix(in srgb, var(--primary-color),white 5%);
+}
+
+/*parte de responsividade*/
+@media screen and (min-width:48.75em) {
+   .top_header{
+    display: flex;
+    justify-content: space-between;
+   }
+
+   .top_header_logo{
+    margin-left: 1.5em;
+   }
+
+    .top_header_nav {
+        background-color: initial;
+    }
+
+   .top_header_nav li{
+    display: inline-block;
+    font-weight: bold
+   }
+
+   .top_header_nav a {
+    color: var(--primary-color);
+   }
+
+   .top_header_nav a:hover{
+    background-color: color-mix(in srgb, var(--primary-color), white 65%);
+   }
+    
+}
+
+/* ajustes da página*/
+
+.center img {
+    margin-top: 15px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid rgb(0, 36, 102);
+}
+
+.ajuste {
+    padding: 0px 50px;
+}
+
+.center {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: var(--primary-color);
+}
+
+h3 {
+    text-align: center;
+    color: red;
+
+}
+
+.container  {
+    display: inline;
+}
+
+.container img {
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 0;
+}
+
+.caixa {
+    background-color: rgb(211, 229, 245);
+    margin-bottom: 55px;
+    padding: 20px;
+}
+
+footer {
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+footer a {
+    margin: 10px;
+    text-align: center;
+    padding-left: 80px ;
+    padding-right: 80px;
+}
+
+
+
+
